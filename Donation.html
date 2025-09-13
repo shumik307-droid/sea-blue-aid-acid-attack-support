@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Donation — SeaBlue Aid
+</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-bg">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/logo.png" class="logo">SeaBlue Aid
+</a>
+      <nav class="nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="donation.html" class="nav-link active">Donation</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+ <main>
+  <section class="hero" style="background-image:url('assets/page-bg.jpg')">
+    <h1>Donate — (Donation Form)</h1>
+    <p>This is donation form and payment is processed here.</p>
+  </section>
+
+  <section class="container form-wrap">
+    <form class="donation-form" onsubmit="return false;">
+      <h2>Quick Donate</h2>
+
+      <!-- Row 1: Name + Email -->
+      <div class="form-row">
+        <input type="text" name="fullname" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+      </div>
+
+      <!-- Row 2: Amount + Method -->
+      <div class="form-row">
+        <input type="number" name="amount" min="1" placeholder="Amount (USD)" required>
+        <select name="method">
+          <option value="card">Card </option>
+          <option value="bank">Bank Transfer </option>
+          <option value="cash">Cash</option>
+        </select>
+      </div>
+
+      <!-- Row 3: Message -->
+      <div class="form-row">
+        <textarea name="msg" placeholder="Add a message (optional)..."></textarea>
+      </div>
+
+      <!-- Row 4: Buttons -->
+      <div class="form-row">
+        <button class="btn primary" type="submit">Donate </button>
+        <button class="btn ghost" type="reset">Reset</button>
+      </div>
+
+    <p> For payments, connect to Stripe/PayPal.</p>
+    </form>
+  </section>
+</main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h4>SeaBlue Aid</h4>
+        <p>Demo site footer content.</p>
+      </div>
+       <div class="footer-links">
+        <h5>Quick Links</h5>
+       
+          <li><a href="donation.html">Donate</a></li>
+          <li><a href="statistics.html">Statistics</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        
+      </div>
+      <div class="footer-contact">
+        <h5>Contact</h5>
+        <p>Email: help@seablue.org</p>
+      </div>
+      <div class="footer-newsletter">
+        <h5>Subscribe</h5>
+        <form onsubmit="return false;"><input type="email" placeholder="you@example.com"><button class="btn primary">Subscribe</button></form>
+      </div>
+    </div>
+    <div class="site-credit container">© 2025 SeaBlue Aid.</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home — SeaBlue Aid
+</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<script src="{% static 'js/script.js' %}"></script>
+<link rel="icon" href="{% static 'images/favicon.ico' %}">
+
+
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="SeaBlue Aid"
+" class="logo">SeaBlue Aid
+      </a>
+      <nav class="nav" id="mainNav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="first-aid.html" class="nav-link">First Aid</a>
+        <a href="donation.html" class="nav-link">Donation</a>
+        <a href="emotional-support.html" class="nav-link">Emotional Support</a>
+        <a href="financial-support.html" class="nav-link">Financial Support</a>
+        <a href="statistics.html" class="nav-link">Statistics</a>
+        <a href="stories.html" class="nav-link">Stories</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main>
+    <section class="hero" style="background-image:url('assets/home-bg.jpg')">
+      <div class="container hero-inner">
+        <h1>Helping Hands, Bright Futures,Hope & Support 
+          <br> Acid Attack Survivors</br>
+        </h1>
+        <p>Community-driven support: first aid, emotional care, & financial aid. Browse, donate, and get involved.
+        Hope, Healing, and a New Beginning
+Providing urgent care, emotional healing, and financial support to survivors of acid attacks. Join us to empower lives, donate, and spread hope  
+        </p>
+        <div class="hero-ctas">
+          <a class="btn primary" href="donation.html">Donate Now</a>
+          <a class="btn ghost" href="first-aid.html">First Aid Resources</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- OVERVIEW SECTION -->
+    <section class="overview container">
+      <div class="card">
+        <h2>What we do</h2>
+        <p>We provide quick first-aid guides, connect people to emotional support, and facilitate micro-donations that help families in need.</p>
+      </div>
+      <div class="card">
+        <h2>How you help</h2>
+        <ul>
+          <li>Share resources</li>
+          <li>Donate via the donation page (demo form)</li>
+          <li>Volunteer to create localized guides</li>
+        </ul>
+      </div>
+  <div class="card quick-links">
+    <h2>Quick Links</h2>
+    <ul>
+        <li><a href="statistics.html">Live stats</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="about.html">About our team</a></li>
+    </ul>
+</div>
+
+
+
+    </section>
+
+    <!-- DEMO FORMS -->
+<section class="forms container">
+  <div class="split">
+    
+    <!-- Feedback Panel -->
+    <div class="panel card">
+      <h3>Overview / Feedback</h3>
+      <form id="overviewForm" class="demo-form" onsubmit="return false;">
+        <div class="form-row">
+          <label>Full Name</label>
+          <input type="text" name="name" placeholder="Enter your full name">
+        </div>
+        <div class="form-row">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="you@example.com">
+        </div>
+        <div class="form-row">
+          <label>Message</label>
+          <textarea name="message" rows="4" placeholder="Write your feedback or overview..."></textarea>
+        </div>
+        <div class="form-row btn-row">
+          <button class="btn primary" type="submit">Send </button>
+          <button class="btn ghost" type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Donation Panel -->
+    <div class="panel card">
+      <h3>Quick Donate</h3>
+      <form id="quickDonate" class="demo-form" onsubmit="return false;">
+        <div class="form-row">
+          <label>Amount (USD)</label>
+          <input type="number" name="amount" min="1" placeholder="25">
+        </div>
+        <div class="form-row">
+          <label>Purpose</label>
+          <select name="purpose">
+            <option>General</option>
+            <option>Medical</option>
+            <option>Education</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label>Note</label>
+          <textarea name="note" rows="3" placeholder="Optional note..."></textarea>
+        </div>
+        <div class="form-row btn-row">
+          <button class="btn primary" type="submit">Proceed </button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h4>SeaBlue Aid</h4>
+        <p>Connecting communities with timely help — medical, emotional, and financial support. (Demo site)</p>
+        <p class="small">Registered: 2025 | Demo Info • Tax ID: 00-0000</p>
+      </div>
+  <!-- Footer -->
+<div class="footer-links">
+    <h5>Quick Links</h5>
+      <li><a href="first-aid.html">First Aid</a></li>
+      <li><a href="donation.html">Donate</a></li>
+      <li><a href="statistics.html">Statistics</a></li>
+      <li><a href="about.html">About</a></li>
+  </div>
+
+
+      <div class="footer-contact">
+        <h5>Contact</h5>
+        <p>Email: help@seablue.org</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <div class="socials">
+  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+  <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+</div>
+
+      </div>
+      <div class="footer-newsletter">
+        <h5>Subscribe</h5>
+        <p class="small">Get site updates</p>
+        <form onsubmit="return false;">
+          <input type="email" placeholder="you@example.com">
+          <button class="btn primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="site-credit container">© 2025 SeaBlue Aid. Built with ❤️ for presentation.</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

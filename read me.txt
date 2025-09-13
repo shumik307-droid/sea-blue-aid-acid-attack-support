@@ -1,0 +1,33 @@
+# 🌊 SeaBlue Aid Website
+
+SeaBlue Aid is a community-driven support platform designed to provide **medical, emotional, and financial assistance** to survivors.  
+The website highlights awareness, resources, and opportunities to contribute via donations and volunteering.  
+
+---
+
+## 📌 Features
+- **Responsive Navigation** — mobile-friendly menu toggle.
+- **Statistics Section** — animated counters showing impact (survivors helped, volunteers, donations).
+- **Stimulator Button** — dynamically increases statistics to demonstrate growth.
+- **First Aid Information** — essential emergency guidance for survivors.
+- **Donation Page** — easy access for financial support.
+- **Emotional & Financial Support Pages** — connect survivors with the right resources.
+- **About & Contact Pages** — transparency and communication.
+- **Footer Newsletter Form** — subscribe to updates (demo version with JS alerts).
+- **Contact/Other Forms** — functional demo handling (works without backend).
+
+---
+
+## 🛠️ Tech Stack
+- **HTML5** — structure and content  
+- **CSS3** — styling (responsive, card layout, button effects)  
+- **JavaScript (ES6)** — interactivity (stats animation, forms, menu toggle)  
+- **Fonts & Icons**: [Google Fonts](https://fonts.google.com/) (Inter), [Font Awesome](https://fontawesome.com/)  
+
+---
+
+## 🚀 Setup Instructions
+1. Clone or download this repository.  
+2. Open `index.html` in your browser.  
+3. Ensure the folder structure is correct:  
+
